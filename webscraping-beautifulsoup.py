@@ -22,8 +22,13 @@ if response.status_code == 200:
 else:
     print("Failed to retrieve the webpage.")
 
+"""
+Explanation
 
-    """
+    Fetches the HTML content of the news website using requests.
+    Parses the HTML using BeautifulSoup.
+    Extracts and prints the headlines (modify the tag h2 based on the actual website structure)."""
+"""
 output
 Latest News Headlines:
 1. BEST OF PREMIUM
@@ -45,4 +50,4 @@ Latest News Headlines:
 17. OPINION
 18. Today's Crossword
 
-    """ 
+""" 
